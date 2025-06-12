@@ -1,0 +1,47 @@
+/* footer */
+div.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+}
+
+div[id="f5"] {
+  font-size: 20px;
+  align-self: flex-end;
+  line-height: 0.5;
+}
+
+div[id="f1"],
+div[id="f2"],
+div[id="f3"],
+div[id="f4"] {
+  flex: 1;
+}
+
+div[id="f4"] h4 {
+  margin-bottom: 5px;
+}
+
+.container-footer {
+  padding: 50px 100px;
+  height: 350px;
+}
+
+.container-footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.container-footer li {
+  line-height: 1.6;
+}
+
+.container-footer a:link, .container-footer a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.container-footer a:hover {
+  text-decoration: underline;
+}

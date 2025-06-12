@@ -1,0 +1,87 @@
+/* header */
+header ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+}
+
+header {
+  display: flex;
+  height: 90px;
+  background-color: black;
+  align-items: center;
+}
+
+.h-left {
+  flex: 2;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-and-text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.h-left li[id="h-1"] a {
+  font-weight: 700;
+}
+
+.logo-and-text:hover {
+  opacity: 0.8;
+}
+
+.h-left li[id="h-2"] a {
+  border-left: 2px solid white;
+  padding-left: 10px;
+}
+
+.h-left li[id="h-2"] a:hover {
+  text-decoration: underline;
+}
+
+.h-right {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.h-right li[id="h-3"] input {
+  width: 260px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 15px;
+  outline: none;
+}
+
+.h-right li[id="h-4"] a {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(27, 27, 27);
+  border: 1px solid white;
+}
+
+.h-right li[id="h-5"] a {
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: #4c5fd5;
+  transition: background-color 0.5s;
+}
+
+.h-right li[id="h-5"] a:hover {
+  color: black;
+  background-color: white;
+}
+
+header a,
+a:visited {
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+}

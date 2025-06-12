@@ -1,0 +1,71 @@
+/* main */
+/* main top-main */
+main div.top-main {
+  background-color: #dadbf1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+main div.top-main h1 {
+  margin-top: 0;
+  font-weight: lighter;
+  font-size: 75px;
+}
+
+main .search-box {
+  display: flex;
+  background-color: white;
+  width: 700px;
+  height: 60px;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  border: 1px solid black;
+}
+
+main .search-box input {
+  border: none;
+  font-size: 20px;
+  outline: none;
+}
+
+main div.top-main div {
+  text-align: center;
+}
+
+/*main content */
+main div.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 160px;
+  margin-top: 180px;
+  margin-bottom: 80px;
+  row-gap: 80px;
+  column-gap: 80px;
+  font-size: 20px;
+}
+
+main div.content img {
+  width: 100px;
+  height: 100px;
+}
+
+figure {
+  margin: 0;
+  width: 100px;
+  height: 220px;
+  float: left;
+  padding-right: 40px;
+}
+
+div.content a , div.content a:visited{
+  text-decoration: none;
+  color: rgb(101, 101, 255);
+}
+
+div.content a:hover {
+  text-decoration: underline;
+}
