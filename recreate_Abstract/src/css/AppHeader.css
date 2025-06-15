@@ -26,7 +26,7 @@ header {
   gap: 5px;
 }
 
-.h-left li[id="h-1"] a {
+.h-item a {
   font-weight: 700;
 }
 
@@ -34,12 +34,12 @@ header {
   opacity: 0.8;
 }
 
-.h-left li[id="h-2"] a {
+.help-center a {
   border-left: 2px solid white;
   padding-left: 10px;
 }
 
-.h-left li[id="h-2"] a:hover {
+.help-center a:hover {
   text-decoration: underline;
 }
 
@@ -51,7 +51,8 @@ header {
   gap: 30px;
 }
 
-.h-right li[id="h-3"] input {
+.search-box input {
+  box-sizing: border-box;
   width: 260px;
   height: 50px;
   border-radius: 10px;
@@ -60,27 +61,26 @@ header {
   outline: none;
 }
 
-.h-right li[id="h-4"] a {
+.request a {
   padding: 10px 20px;
   border-radius: 10px;
   background-color: rgb(27, 27, 27);
   border: 1px solid white;
 }
 
-.h-right li[id="h-5"] a {
+.sign-in a {
   padding: 10px 30px;
   border-radius: 10px;
   background-color: #4c5fd5;
   transition: background-color 0.5s;
 }
 
-.h-right li[id="h-5"] a:hover {
+.sign-in a:hover {
   color: black;
   background-color: white;
 }
 
-header a,
-a:visited {
+header a, header a:visited {
   color: white;
   text-decoration: none;
   font-size: 23px;
